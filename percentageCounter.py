@@ -1,8 +1,8 @@
 def counter():
-  b = int(input("Napište maximální počet bodů" + "\n"))
+  b = float(input("Napište maximální počet bodů" + "\n"))
 
   while True:
-    a = int(input("získaný počet bodů" + "\n"))
+    a = float(input("získaný počet bodů" + "\n"))
 
     result = (a / b) * 100
     print(f"{result} %")
